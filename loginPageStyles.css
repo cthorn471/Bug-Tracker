@@ -1,0 +1,49 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    background: url(img/group.jpg) no-repeat;
+    background-size: cover; 
+    position: relative;   
+}
+/*Style for the entire login from */
+.login-form{
+    
+    text-align: right;
+    padding:10px;
+    margin: auto;
+    width: 100%;
+    
+}
+
+/*Style for the email and password input boxes */
+input[type=password],input[type=email]{
+    padding: 10px;
+    margin: 10px 150px 20px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+/*Style for both buttons (login and Create Account) on the login page */
+input[class="btn"]{
+    margin: 10px 150px 0px 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+/*Style the h1 heading "Bug Tracker" */
+h1{
+    
+    text-align: left;
+    color: gray; 
+    font-size: 35px;
+    margin: 10px 25px 0;
+   /* border-bottom: 10px solid rgb(0, 179, 250);*/
+}
+
+/*This is suppose to style the font awesome icons*/
+i{
+    width: 26px;
+    float: left;
+}
